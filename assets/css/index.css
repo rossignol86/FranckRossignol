@@ -1,0 +1,153 @@
+/* RESET & BASE */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto Flex", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #fff;
+  color: #000;
+}
+
+/* LOGO */
+.logo {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main{
+  flex: 1;
+  width: 100%;
+}
+
+
+/* TITRE PRINCIPAL */
+h1 {
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-family: 'Amarante', cursive;
+}
+
+/* CONTENEUR DES BLOCS */
+.conteneurblocs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+/* CARTES */
+article {
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 380px;
+    width: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+article:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.blocimage {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+article h2 {
+    font-family: 'Amarante', cursive;
+    font-size: 2rem;
+    line-height: 2.3rem;
+    margin: 20px;
+    color: #005b96;
+}
+
+.textbloc {
+    padding: 0 20px 20px;
+}
+
+.textbloc p {
+    margin-bottom: 15px;
+}
+
+.lienhtml {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #005b96;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.lienhtml:hover {
+    background-color: #003f6b;
+}
+
+
+/* FOOTER */
+.footer-content {
+  padding: 2.5rem 1rem;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.6rem;
+}
+
+.footer-content a {
+  color: #F66960;
+  text-decoration: none;
+  font-weight: 900;
+}
+
+.footer-content a:hover {
+  text-decoration: underline;
+}
+
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .conteneurblocs {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    article {
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    article h2 {
+        font-size: 2rem;
+    }
+
+    .lienhtml {
+        width: 100%;
+        text-align: center;
+    }
+}
