@@ -205,6 +205,11 @@ article h2 {
 
 /* RESPONSIVE */
 @media (max-width: 400px) {
+    body {
+    background: none;
+    background-color: #ffffff; /* ou une autre couleur de ton choix */
+  }
+  
   header {
     flex-direction: column;
     align-items: center;
