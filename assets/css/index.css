@@ -3,27 +3,91 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+
 }
 
-body {
-    font-family: "Roboto Flex", sans-serif;
-    background: url('../images/cereal.jpg') no-repeat center center fixed;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh; /* ✅ pour que le footer reste en bas */
-    background-color: #fff;
-    color: #000;
-}
-
-/* LOGO */
-.logo {
-  width: 100%;
-  max-width: 300px;
-  margin: 0 auto;
+/* HEADER */
+header {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  padding: 1.2rem 2.5rem;
+  flex-wrap: wrap;
+  position: relative;
+  margin-bottom: 100px;
+}
+
+/* Nom à gauche */
+.nom h1 {
+  font-size: 3rem;
+  font-weight: 100;
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+/* Logo centré */
+.logo {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+}
+
+.logo img {
+  max-height: 150px;
+  height: auto;
+}
+
+/* Titres à droite */
+.titre {
+  display: flex;
+  gap: 3rem;
+}
+
+.titre a {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 200;
+  transition: color 0.3s ease;
+  position: relative;
+}
+
+.titre a::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0%;
+  background-color:  #ffd900;
+  transition: width 0.3s ease;
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+}
+
+.titre a:hover {
+  font-weight: 600;
+  color: #ffd900;
+}
+
+.titre a:hover::after {
+  width: 100%;
+}
+
+
+
+
+/* corp du html */
+body {
+  font-family: "Roboto Flex", sans-serif;
+  background: url('../images/particles-7055781_1920.jpg') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* ✅ pour que le footer reste en bas */
+  background-color: #fff;
+  color: #000;
 }
 
 /* MAIN */
@@ -31,15 +95,10 @@ body {
   flex: 1; /* ✅ pousse le footer en bas si le contenu est court */
   width: 100%;
   text-align: center;
+  margin-bottom: 50px;
 }
 
 /* TITRE PRINCIPAL */
-h1 {
-  font-family: 'Amarante', cursive;
-  font-size: 4rem;
-  margin-top: 30px;
-  margin-bottom: 40px;
-}
 
 /* CONTENEUR DES BLOCS */
 .conteneurblocs {
@@ -72,11 +131,11 @@ article:hover {
 }
 
 article h2 {
-  font-family: 'Amarante', cursive;
   font-size: 2rem;
   line-height: 2.3rem;
   margin: 20px;
   color: #005b96;
+  font-weight: 300;
 }
 
 .textbloc {
@@ -103,7 +162,7 @@ article h2 {
 
 /* FOOTER FIXÉ EN BAS */
 .footer {
-  background-color: #111;
+  /* background-color: #111 ; */
   color: #f4f4f4;
   width: 100%;
   padding: 20px 10px;
@@ -118,10 +177,10 @@ article h2 {
 }
 
 .footer a {
-    font-weight: 400;
+    font-weight: 600;
     font-size: 1.1rem;
     line-height: 1.5rem;
-    color: #ccc;
+    color: #ffffff;
     text-decoration: none;
     margin: 0 8px;
     transition: color 0.3s ease;
@@ -135,37 +194,63 @@ article h2 {
 .footer p{
     font-size: 1.1rem;
     line-height: 1.6rem;
+    color: #ffffff;
 }
 
 
 
 /* RESPONSIVE */
-@media (max-width: 768px) {
+@media (max-width: 400px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 380px;
+  }
+
+  .logo {
+    order: 1; /* Logo en premier */
+  }
+
+  .nom {
+    order: 2; /* Nom en deuxième */
+    margin-top: 150px;
+  }
+
+  .nom h1 {
+  font-size: 4rem;
+  font-weight: 200;
+  color: #ffffff;
+  line-height: 3rem;
+  }
+
+  .titre {
+    margin-top: 20px;
+    order: 3; /* Titres en dernier */
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .titre a{
+    font-size: 2rem;
+    font-weight: 500;
+  }
+
+
+  
+
   .conteneurblocs {
+    margin: 0 auto;
+    max-width: 90%;
     flex-direction: column;
     align-items: center;
   }
-
-  h1 {
-    font-size: 2rem;
-  }
-
-  article {
+  
+  .article {
     max-width: 90%;
   }
+
 }
 
-@media (max-width: 480px) {
-  h1 {
-    font-size: 3.5rem;
-  }
-
-  article h2 {
-    font-size: 2rem;
-  }
-
-  .lienhtml {
-    width: 100%;
-    text-align: center;
-  }
-}
