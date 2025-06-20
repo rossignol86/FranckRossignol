@@ -9,21 +9,22 @@
 
 /* HEADER */
 header {
+  background-color: #ffffff;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1.2rem 2.5rem;
   flex-wrap: wrap;
   position: relative;
-  margin-bottom: 100px;
+  margin-bottom: 150px;
 }
 
 /* Nom à gauche */
 .nom h1 {
   font-size: 3rem;
-  font-weight: 100;
-  color: #ffffff;
-  margin-top: 20px;
+  font-weight: 300;
+  color: #012081;
+  margin-top: 10px;
 }
 
 /* Logo centré */
@@ -35,7 +36,7 @@ header {
 }
 
 .logo img {
-  max-height: 150px;
+  max-height: 180px;
   height: auto;
 }
 
@@ -48,7 +49,7 @@ header {
 .titre a {
   font-size: 1.2rem;
   text-decoration: none;
-  color: #ffffff;
+  color: #012081;
   font-weight: 200;
   transition: color 0.3s ease;
   position: relative;
@@ -59,7 +60,7 @@ header {
   display: block;
   height: 2px;
   width: 0%;
-  background-color:  #ffd900;
+  color: #000004;
   transition: width 0.3s ease;
   position: absolute;
   bottom: -4px;
@@ -68,7 +69,7 @@ header {
 
 .titre a:hover {
   font-weight: 600;
-  color: #ffd900;
+  color: #000004;;
 }
 
 .titre a:hover::after {
@@ -134,7 +135,7 @@ article h2 {
   font-size: 2rem;
   line-height: 2.3rem;
   margin: 20px;
-  color: #005b96;
+  color: #012081;
   font-weight: 300;
 }
 
@@ -144,6 +145,8 @@ article h2 {
 
 .textbloc p {
   margin-bottom: 15px;
+  font-size: 0.8rem;
+  line-height: 1.2rem;
 }
 
 .lienhtml {
@@ -157,15 +160,16 @@ article h2 {
 }
 
 .lienhtml:hover {
-  background-color: #003f6b;
+  background-color: #020107;
 }
 
 /* FOOTER FIXÉ EN BAS */
 .footer {
   /* background-color: #111 ; */
   color: #f4f4f4;
+  background-color: #000004;
   width: 100%;
-  padding: 20px 10px;
+  padding: 0px 10px;
   text-align: center;
   font-size: 0.9rem;
   margin-top: auto; /* ✅ essentiel pour rester en bas */
@@ -173,12 +177,12 @@ article h2 {
 
 .footer-container {
   max-width: 1000px;
-  margin: 0 auto;
+  margin: 20px auto;
 }
 
 .footer a {
-    font-weight: 600;
-    font-size: 1.1rem;
+    font-weight: 400;
+    font-size: 0.8rem;
     line-height: 1.5rem;
     color: #ffffff;
     text-decoration: none;
@@ -192,8 +196,8 @@ article h2 {
 }
 
 .footer p{
-    font-size: 1.1rem;
-    line-height: 1.6rem;
+    font-size: 0.8rem;
+    line-height: 1.2rem;
     color: #ffffff;
 }
 
@@ -219,14 +223,15 @@ article h2 {
   }
 
   .nom h1 {
+    margin-top: 30px;
   font-size: 4rem;
   font-weight: 200;
-  color: #ffffff;
-  line-height: 3rem;
+  color: #020107;
+  line-height: 2.8rem;
   }
 
   .titre {
-    margin-top: 20px;
+    margin-top: 30px;
     order: 3; /* Titres en dernier */
     display: flex;
     flex-direction: column;
