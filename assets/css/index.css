@@ -43,7 +43,7 @@ header {
 /* Titres à droite */
 .titre {
   display: flex;
-  gap: 3rem;
+  gap: 2rem;
 }
 
 .titre a {
@@ -145,7 +145,7 @@ article h2 {
 
 .textbloc p {
   margin-bottom: 15px;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   line-height: 1.2rem;
 }
 
@@ -209,7 +209,7 @@ article h2 {
     background: none;
     background-color: #ffffff; /* ou une autre couleur de ton choix */
   }
-  
+
   header {
     flex-direction: column;
     align-items: center;
