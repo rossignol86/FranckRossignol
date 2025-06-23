@@ -16,7 +16,7 @@ header {
   padding: 1.2rem 2.5rem;
   flex-wrap: wrap;
   position: relative;
-  margin-bottom: 150px;
+  margin-bottom: 100px;
 }
 
 /* Nom à gauche */
@@ -99,7 +99,64 @@ body {
   margin-bottom: 50px;
 }
 
-/* TITRE PRINCIPAL */
+
+
+
+
+
+/* PRESENTATION */
+
+ .eco-section {
+  margin: 20px 0;
+  background-color: #ffffffe1;
+  padding: 60px 20px;
+  margin-bottom: 60px;
+}
+
+.eco-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.eco-text {
+  flex: 1 1 500px;
+  color: #211c15;
+}
+
+.eco-text h2 {
+  font-size: 2rem;
+  line-height: 2.3rem;
+  color: #012081;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.eco-text p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.eco-image {
+  flex: 1 1 250px;
+  text-align: center;
+}
+
+.eco-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+
+
+
+
+
 
 /* CONTENEUR DES BLOCS */
 .conteneurblocs {
@@ -163,6 +220,11 @@ article h2 {
   background-color: #020107;
 }
 
+
+
+
+
+
 /* FOOTER FIXÉ EN BAS */
 .footer {
   /* background-color: #111 ; */
@@ -204,33 +266,42 @@ article h2 {
 
 
 /* RESPONSIVE */
-@media (max-width: 850px) {
-    body {
-          background: none;
-    background-color: #ffffff; /* ou une autre couleur de ton choix */
+@media screen and (max-width: 768px) {
+body {
+  background: none;
+  background-color: #ffffff; /* ou une autre couleur de ton choix */
+}
+
+header {
+  position: relative;
+  margin-bottom: 150px;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  /* max-width: 800px; */
+}
+
+  .eco-container {
+    flex-direction: column;
+    text-align: center;
   }
 
-  header {
-      position: relative;
-  margin-bottom: 150px;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin: 0 auto;
-    /* max-width: 800px; */
+  .eco-text {
+    text-align: left;
   }
 
   .logo {
-    order: 1; /* Logo en premier */
+  order: 1; /* Logo en premier */
   }
 
   .nom {
-    order: 2; /* Nom en deuxième */
-    margin-top: 150px;
+  order: 2; /* Nom en deuxième */
+  margin-top: 150px;
   }
 
   .nom h1 {
-    margin-top: 30px;
+  margin-top: 30px;
   font-size: 4rem;
   font-weight: 200;
   color: #020107;
@@ -238,27 +309,27 @@ article h2 {
   }
 
   .titre {
-    margin-top: 30px;
-    order: 3; /* Titres en dernier */
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
+  margin-top: 30px;
+  order: 3; /* Titres en dernier */
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
   }
 
   .titre a{
-    font-size: 2rem;
-    font-weight: 500;
+  font-size: 2rem;
+  font-weight: 500;
   }
 
   .conteneurblocs {
-    margin: 0 auto;
-    max-width: 90%;
-    flex-direction: column;
-    align-items: center;
+  margin: 0 auto;
+  max-width: 90%;
+  flex-direction: column;
+  align-items: center;
   }
-  
+
   .article {
-    max-width: 90%;
+  max-width: 90%;
   }
 
 }
