@@ -1,0 +1,242 @@
+/* RESET & BASE */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+
+}
+
+/* HEADER */
+header {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 2.5rem;
+  flex-wrap: wrap;
+  position: relative;
+  margin-bottom: 100px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+}
+
+/* Nom à gauche */
+.nom h1 {
+  font-size: 5rem;
+  font-weight: 100;
+  color: #012081;
+  margin-top: 10px;
+}
+
+/* Logo centré */
+.logo {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+}
+
+.logo img {
+  max-height: 130px;
+  height: auto;
+}
+
+/* Titres à droite */
+.titre {
+  display: flex;
+  gap: 2rem;
+}
+
+.titre a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #012081;
+  font-weight: 200;
+  transition: color 0.3s ease;
+  position: relative;
+}
+
+.titre a::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0%;
+  color: #000004;
+  transition: width 0.3s ease;
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+}
+
+.titre a:hover {
+  font-weight: 600;
+  color: #000004;;
+}
+
+.titre a:hover::after {
+  width: 100%;
+}
+
+
+
+
+/* corp du html */
+body {
+  font-family: "Roboto Flex", sans-serif;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* ✅ pour que le footer reste en bas */
+  background-color: #fff;
+  color: #000;
+}
+
+/* MAIN */
+.main {
+  flex: 1; /* ✅ pousse le footer en bas si le contenu est court */
+  width: 100%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+
+
+/* FOOTER FIXÉ EN BAS */
+.footer {
+  /* background-color: #111 ; */
+  color: #f4f4f4;
+  background-color: #000004;
+  width: 100%;
+  padding: 0px 10px;
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: auto; /* ✅ essentiel pour rester en bas */
+}
+
+.footer-container {
+  max-width: 1000px;
+  margin: 20px auto;
+}
+
+.footer a {
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 8px;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: #fffb00;
+    font-weight: 800;
+}
+
+.footer p{
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+    color: #ffffff;
+}
+
+
+
+/* RESPONSIVE */
+@media screen and (max-width: 768px) {
+body {
+  background: none;
+  background-color: #ffffff;
+}
+
+header {
+  position: relative;
+  margin-bottom: 150px;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.logo {
+  order: 1; /* Logo en premier */
+}
+
+.nom {
+  order: 2; /* Nom en deuxième */
+  margin-top: 150px;
+}
+
+.nom h1 {
+  margin-top: 30px;
+  font-size: 4rem;
+  font-weight: 200;
+  color: #020107;
+  line-height: 2.8rem;
+}
+
+.titre {
+  margin-top: 30px;
+  order: 3; /* Titres en dernier */
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.titre a{
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+}
+
+
+@media (max-width: 400px) {
+body {
+  background: none;
+  background-color: #ffffff; /* ou une autre couleur de ton choix */
+}
+
+header {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 380px;
+}
+
+.logo {
+  order: 1; /* Logo en premier */
+}
+
+.nom {
+  order: 2; /* Nom en deuxième */
+  margin-top: 150px;
+}
+
+.nom h1 {
+  margin-top: 80px;
+  font-size: 4rem;
+  font-weight: 200;
+  color: #020107;
+  line-height: 2.8rem;
+}
+
+.titre {
+  margin-top: 30px;
+  order: 3; /* Titres en dernier */
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.titre a{
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+
+
+
+}
+
