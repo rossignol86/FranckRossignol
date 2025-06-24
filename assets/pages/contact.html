@@ -34,6 +34,7 @@
 
 <!-- Feuille de style -->
 <link rel="stylesheet" href="../css/headerfooter.css">
+<link rel="stylesheet" href="../css/contact.css">
 
 <!-- Favicon -->
 <link rel="icon" href="favicon.ico">
@@ -58,7 +59,49 @@
     </header>
 
     <main>
+        <section>
+        <h2>Contactez-moi</h2>
+        <p>Vous avez un projet, une question ou une opportunité ? <br> Envoyez-moi un message en remplissant le formulaire ci-dessous, <br> je vous répondrai au plus vite.</p>
+        </section>
 
+        <form action="mailto:ff.rossignol@yahoo.fr" method="POST" enctype="text/plain">
+        <div class="form-group">
+            <label for="nom">Nom</label>
+            <input type="text" id="nom" name="Nom" required>
+        </div>
+
+        <div class="form-group">
+            <label for="prenom">Prénom</label>
+            <input type="text" id="prenom" name="Prénom" required>
+        </div>
+
+        <div class="form-group">
+            <label for="societe">Société</label>
+            <input type="text" id="societe" name="Société">
+        </div>
+
+        <div class="form-group">
+            <label for="objet">Objet</label>
+            <input type="text" id="objet" name="Objet" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="Email" required>
+        </div>
+
+        <div class="form-group">
+            <label for="telephone">Téléphone</label>
+            <input type="tel" id="telephone" name="Téléphone">
+        </div>
+
+        <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="Message" placeholder="Votre message ici..." required></textarea>
+        </div>
+
+        <button type="submit">Envoyer</button>
+        </form>
     </main>
 
   <!-- Footer -->

@@ -1,0 +1,104 @@
+:root {
+    --primary: #1c60a3;
+    --white: #ffffff;
+    --dark: #000000;
+    --shadow: rgba(0, 0, 0, 0.1);
+}
+
+body {
+  font-family: "Roboto Flex", sans-serif;
+  background: url('../images/background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+    background-color: #ffffff;
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    box-shadow: 0 4px 12px var(--shadow);
+}
+
+h2 {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+    color: var(--primary);
+    text-align: center;
+}
+
+p {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+form {
+    max-width: 600px;
+    background-color: var(--white);
+    border-radius: 10px;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 140px;
+    resize: vertical;
+}
+
+button {
+    background-color: var(--primary);
+    color: var(--white);
+    padding: 0.75rem 2rem;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+    margin: 0 auto;
+}
+
+button:hover {
+    background-color: #004b99;
+}
+
+@media (max-width: 768px) {
+    main {
+    padding: 1rem;
+    }
+
+    h1 {
+    font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    input, textarea {
+    font-size: 0.95rem;
+    }
+
+    button {
+    width: 100%;
+    padding: 0.75rem;
+    }
+}
