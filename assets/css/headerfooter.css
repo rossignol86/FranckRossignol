@@ -15,8 +15,7 @@ header {
   padding: 1.2rem 2.5rem;
   flex-wrap: wrap;
   position: relative;
-  margin-bottom: 50px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 100px;
 }
 
 /* Nom à gauche */
@@ -55,28 +54,17 @@ header {
   position: relative;
 }
 
-.titre a::after {
-  content: "";
-  display: block;
-  height: 2px;
-  width: 0%;
-  color: #000004;
-  transition: width 0.3s ease;
-  position: absolute;
-  bottom: -4px;
-  left: 0;
-}
-
 .titre a:hover {
   font-weight: 600;
   color: #000004;;
 }
 
-.titre a:hover::after {
-  width: 100%;
+.titre .titrepage {
+  font-weight: 700;
+  color: #ff5e00;
+  pointer-events: none;
+  cursor: default;
 }
-
-
 
 
 /* corp du html */
