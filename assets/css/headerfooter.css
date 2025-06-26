@@ -36,7 +36,7 @@ header {
 }
 
 .logo img {
-  max-height: 130px;
+  max-height: 220px;
   height: auto;
 }
 
@@ -154,6 +154,7 @@ header {
   align-items: center;
   text-align: center;
   margin: 0 auto;
+  box-shadow: none;
 }
 
 .logo {
@@ -166,7 +167,7 @@ header {
 }
 
 .nom h1 {
-  margin-top: 30px;
+  margin-top: 80px;
   font-size: 4rem;
   font-weight: 200;
   color: #020107;
@@ -192,7 +193,7 @@ header {
 @media (max-width: 400px) {
 body {
   background: none;
-  background-color: #ffffff; /* ou une autre couleur de ton choix */
+  background-color: #ffffff;
 }
 
 header {
@@ -201,6 +202,7 @@ header {
   text-align: center;
   margin: 0 auto;
   max-width: 380px;
+  box-shadow: none;
 }
 
 .logo {

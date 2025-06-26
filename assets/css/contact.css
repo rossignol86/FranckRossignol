@@ -7,7 +7,7 @@
 
 body {
   font-family: "Roboto Flex", sans-serif;
-  background: url('../images/background.jpg') no-repeat center center fixed;
+  background: url('../images/background.webp') no-repeat center center fixed;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -15,7 +15,7 @@ body {
 
 main {
     background-color: #ffffff;
-    margin: 0 auto;
+    margin: 50px auto;
     padding: 2rem;
     border-radius: 10px;
     margin-bottom: 50px;
@@ -83,6 +83,9 @@ button:hover {
 }
 
 @media (max-width: 768px) {
+    body{
+        background: none;
+    }
     main {
     padding: 1rem;
     }

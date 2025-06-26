@@ -81,7 +81,7 @@ header {
 /* corp du html */
 body {
   font-family: "Roboto Flex", sans-serif;
-  background: url('../images/particles-7055781_1920.jpg') no-repeat center center fixed;
+  background: url('../images/fond.webp') no-repeat center center fixed;
   background-size: cover;
   display: flex;
   flex-direction: column;
