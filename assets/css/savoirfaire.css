@@ -1,9 +1,14 @@
-body {
-  font-family: Arial, sans-serif;
+* {
   margin: 0;
   padding: 0;
-  background: url('../images/background.webp') no-repeat center center fixed;
-  color: #000000;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto Flex", sans-serif;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Style pour la section d’introduction */
