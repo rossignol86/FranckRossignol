@@ -46,7 +46,7 @@ header {
 }
 
 .titre a {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   text-decoration: none;
   color: #012081;
   font-weight: 200;
@@ -56,12 +56,11 @@ header {
 
 .titre a:hover {
   font-weight: 600;
-  color: #000004;;
 }
 
 .titre .titrepage {
   font-weight: 700;
-  color: #ff5e00;
+  color: #04096b;
   pointer-events: none;
   cursor: default;
 }
@@ -269,7 +268,7 @@ article h2 {
 
 .footer a {
     font-weight: 400;
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     line-height: 1.5rem;
     color: #ffffff;
     text-decoration: none;
@@ -283,8 +282,8 @@ article h2 {
 }
 
 .footer p{
-    font-size: 0.8rem;
-    line-height: 1.2rem;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
     color: #ffffff;
 }
 
