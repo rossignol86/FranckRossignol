@@ -106,8 +106,8 @@ body {
 
 .footer a {
     font-weight: 400;
-    font-size: 1.2rem;
-    line-height: 1.5rem;
+    font-size: 1.3rem;
+    line-height: 2rem;
     color: #ffffff;
     text-decoration: none;
     margin: 0 8px;
@@ -120,8 +120,8 @@ body {
 }
 
 .footer p{
-    font-size: 1.2rem;
-    line-height: 1.5rem;
+    font-size: 1.3rem;
+    line-height: 2rem;
     color: #ffffff;
 }
 
