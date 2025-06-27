@@ -114,16 +114,16 @@ body {
 }
 
 .eco-text h2 {
-  font-size: 3rem;
-  line-height: 3.5rem;
+  font-size: 1.6rem;
+  line-height: 2rem;
   color: #012081;
   font-weight: 500;
   margin-bottom: 20px;
 }
 
 .eco-text p {
-  font-size: 2rem;
-  line-height: 1.6;
+  font-size: 1.3rem;
+  line-height: 2rem;
 }
 
 .eco-image {
