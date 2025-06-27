@@ -6,7 +6,7 @@
 
 body {
   font-family: "Roboto Flex", sans-serif;
-  background-color: #FF6B35;
+  background-color: #0D99FF;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -36,11 +36,11 @@ body {
   text-align: center;
 }
 
-.introbold p {
+.introboldsavoirfaire p {
   font-size: 1.5rem;
   line-height: 2rem;
   font-weight: 800;
-  color: #ff5e00;
+  color: #0D99FF;
   text-align: center;
   padding-bottom: 30px;
 }
