@@ -1,0 +1,61 @@
+.card {
+  position: relative;
+  width: 380px;
+  max-height: 500px;
+  overflow: hidden;
+  border-radius: 10px;
+  background: #000;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.5);
+
+}
+
+.card-image img {
+  width: 380px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.card-overlay {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: transparent;
+}
+
+.arrow-shape {
+  background: #000000;
+  clip-path: polygon(0 40%, 100% 0, 100% 100%, 0% 100%);
+  padding: 20px 20px 20px 20px;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: transform 0.4s ease;
+  color: #fff;
+}
+
+.arrow-shape .title {
+  font-weight: bold;
+  text-align: center;
+  font-size: 2rem;
+  padding-top: 60px;
+}
+
+.arrow-shape .hidden-text {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: all 0.5s ease;
+  font-size: 1rem;
+  line-height: 1.2rem;
+}
+
+.arrow-shape:hover {
+  transform: translateY(2px);
+}
+
+.arrow-shape:hover .hidden-text {
+  max-height: 300px;
+  opacity: 1;
+  padding: 0;
+  margin: 0;
+}
