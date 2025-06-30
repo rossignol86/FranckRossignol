@@ -52,14 +52,22 @@ body {
   gap: 30px;
   justify-content: center;
 }
+
+h2 {
+  font-weight: 300;
+  text-align: center;
+  font-size: 3.5rem;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
 /* CARTES */
 article {
   background-color: #fff;
   border-radius: 16px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  max-width: 400px;
-  width: 100%;
+  max-width: 360px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -75,13 +83,6 @@ article:hover {
   margin-bottom: 20px;
 }
 
-article h2 {
-  font-size: 2.2rem;
-  line-height: 2.5rem;
-  margin: 20px;
-  color: #012081;
-  font-weight: 300;
-}
 
 .textbloc {
   padding: 0 20px 20px;
@@ -91,18 +92,4 @@ article h2 {
   margin-bottom: 15px;
   font-size: 1.2rem;
   line-height: 1.8rem;
-}
-
-.lienhtml {
-  display: inline-block;
-  text-decoration: none;
-  background-color: #005b96;
-  color: white;
-  padding: 10px 16px;
-  border-radius: 8px;
-  transition: background-color 0.3s ease;
-}
-
-.lienhtml:hover {
-  background-color: #020107;
 }
