@@ -1,4 +1,4 @@
-* {
+ * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -92,4 +92,85 @@ article:hover {
   margin-bottom: 15px;
   font-size: 1.2rem;
   line-height: 1.8rem;
+}
+
+
+/* --------- RESPONSIVE --------- */
+
+@media screen and (max-width: 1024px) {
+  h2 {
+    font-size: 2.8rem;
+  }
+
+  .intro p,
+  .introbold p {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+  }
+
+  .textbloc p {
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  h2 {
+    font-size: 2.8rem;
+    margin-bottom: 30px;
+  }
+
+  .intro p,
+  .introbold p {
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .conteneurblocs {
+    gap: 20px;
+  }
+
+  article {
+    max-width: 100%;
+  }
+
+  .textbloc p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h2 {
+    font-size: 2.4rem;
+    margin-bottom: 20px;
+  }
+
+  .intro p,
+  .introbold p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding: 10px;
+  }
+
+  .sectionblocintro {
+    margin-bottom: 40px;
+  }
+
+  .conteneurblocs {
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px;
+  }
+
+  .textbloc {
+    padding: 10px;
+  }
+
+  .textbloc p {
+    font-size: 0.95rem;
+    line-height: 1.4rem;
+  }
 }

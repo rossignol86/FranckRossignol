@@ -119,19 +119,31 @@ h2 {
   font-size: 1rem;
 }
 
-@media (min-width: 768px) {
-  .experiences {
-    grid-template-columns: repeat(2, 1fr);
+@media screen and (max-width: 480px) {
+  h2 {
+    font-size: 2.8rem;
+    text-align: center;
   }
-}
 
-@media (max-width: 768px) {
-  .exp {
-    margin: 10px;
+  .intro p,
+  .introbold p {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
     padding: 10px;
   }
 
-  h2 {
-    font-size: 1.2em;
+  .conteneurblocs {
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px;
+  }
+
+  .textbloc {
+    padding: 10px;
+  }
+
+  .textbloc p {
+    font-size: 0.95rem;
+    line-height: 1.4rem;
   }
 }
