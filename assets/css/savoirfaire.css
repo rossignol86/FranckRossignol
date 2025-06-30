@@ -29,15 +29,15 @@ body {
 
 .intro p {
   padding-top: 30px;
-  font-size: 1.4rem;
-  line-height: 1.8rem;
+  font-size: 1.3rem;
+  line-height: 2rem;
   font-weight: 400;
   color: #000000;
   text-align: center;
 }
 
 .introboldsavoirfaire p {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   line-height: 2rem;
   font-weight: 800;
   color: #9B5DE5;

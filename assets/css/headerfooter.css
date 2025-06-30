@@ -20,7 +20,7 @@ header {
 
 /* Nom à gauche */
 .nom h1 {
-  font-size: 5rem;
+  font-size: 4.5rem;
   font-weight: 100;
   color: #012081;
   margin-top: 10px;
@@ -46,7 +46,7 @@ header {
 }
 
 .titre a {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   text-decoration: none;
   color: #012081;
   font-weight: 200;
@@ -106,7 +106,7 @@ body {
 
 .footer a {
     font-weight: 400;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     line-height: 2rem;
     color: #ffffff;
     text-decoration: none;
@@ -120,7 +120,7 @@ body {
 }
 
 .footer p{
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     line-height: 2rem;
     color: #ffffff;
 }

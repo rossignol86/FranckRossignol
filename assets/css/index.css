@@ -20,7 +20,7 @@ header {
 
 /* Nom à gauche */
 .nom h1 {
-  font-size: 5rem;
+  font-size: 4.5rem;
   font-weight: 100;
   color: #012081;
   margin-top: 10px;
@@ -46,7 +46,7 @@ header {
 }
 
 .titre a {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   text-decoration: none;
   color: #012081;
   font-weight: 200;
@@ -114,10 +114,10 @@ body {
 }
 
 .eco-text h2 {
-  font-size: 1.8rem;
-  line-height: 2rem;
+  font-size: 2.2rem;
+  line-height: 2.8rem;
   color: #012081;
-  font-weight: 500;
+  font-weight: 300;
   margin-bottom: 20px;
 }
 
@@ -150,14 +150,13 @@ body {
   gap: 30px;
   justify-content: center;
 }
-
 /* CARTES */
 article {
   background-color: #fff;
   border-radius: 16px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  max-width: 380px;
+  max-width: 400px;
   width: 100%;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -174,8 +173,8 @@ article:hover {
 }
 
 article h2 {
-  font-size: 2rem;
-  line-height: 2.3rem;
+  font-size: 2.2rem;
+  line-height: 2.5rem;
   margin: 20px;
   color: #012081;
   font-weight: 300;
@@ -187,8 +186,8 @@ article h2 {
 
 .textbloc p {
   margin-bottom: 15px;
-  font-size: 1.3rem;
-  line-height: 1.7rem;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
 }
 
 .lienhtml {
@@ -222,11 +221,12 @@ article h2 {
 }
 
 .outils-section p {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
+  line-height: 1.5;
   max-width: 700px;
   margin: 0 auto 20px;
   color: #000000;
-  line-height: 1.7;
+
 }
 
 .outils-logos {
@@ -268,7 +268,7 @@ article h2 {
 
 .footer a {
     font-weight: 400;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     line-height: 2rem;
     color: #ffffff;
     text-decoration: none;
@@ -282,7 +282,7 @@ article h2 {
 }
 
 .footer p{
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     line-height: 2rem;
     color: #ffffff;
 }
