@@ -66,3 +66,19 @@
   padding-top: 100px;
   color:  #ff5e00;
 }
+
+@media screen and (max-width: 480px) {
+  .card {
+    margin: 0 auto;
+    width: 90%;
+    height: 100%;
+  }
+  .arrow-shape {
+    padding: 50px 10px;
+  }
+
+  .arrow-shape .hidden-text {
+    font-size: 1rem;
+    line-height: 1.4rem;
+  }
+}
