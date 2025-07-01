@@ -6,7 +6,7 @@
 
 body {
   font-family: "Roboto Flex", sans-serif;
-  background-color: #FF6B35;
+  /* background-color: #FF6B35; */
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -15,7 +15,7 @@ body {
 /* Style pour la section d’introduction */
 .sectionblocintro {
   margin: 20px 0;
-  background-color: #ffffffd2;
+  background-color: #ffffff;
   margin-bottom: 60px;
 }
 
@@ -56,11 +56,17 @@ body {
 }
 
 h2 {
-  font-weight: 300;
+  font-weight: 100;
   text-align: center;
   font-size: 3.5rem;
-  color: #fff;
-  margin-bottom: 50px;
+  color: #000000;
+}
+
+.fleche {
+  text-align: center;
+  font-size: 4rem;
+  color: #ff5e00;
+  margin-bottom: 20px;
 }
 
 /* CARTES */

@@ -55,21 +55,20 @@ h2 {
   padding-bottom: 30px;
 }
 
-/* Section parcours professionnels */
-
-.titreexp {
-  display: flex;
+/* card avec deploiement */
+.experience {
+  margin: 30px auto;
+  background: #fff;
+  border-radius: 8px;
+  padding: 0px;
+  max-width: 600px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  position: relative;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  text-align: center;
 }
 
-.experiences {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  max-width: var(--max-width);
-  margin: 0 auto 50px;
-  padding: 2rem;
-  max-width: 700px;
-}
 
 .exp-1,
 .exp-2,
@@ -108,11 +107,28 @@ h2 {
   text-align: center;
 }
 
+/* Le paragraphe est caché au départ */
 .experience p {
-  margin-top: 1rem;
-  font-size: 1rem;
-  text-align: center;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  margin: 0;
+  opacity: 0;
 }
+
+/* Quand la card est survolée, on dévoile le paragraphe */
+.experience:hover p {
+  max-height: 500px; /* Valeur grande pour tout contenir */
+  opacity: 1;
+  margin-top: 15px;
+}
+
+.experience:hover {
+  box-shadow: 0 8px 30px rgba(0,0,0,0.2);
+  transform: translateY(5px);
+}
+
+
 
 @media screen and (max-width: 480px) {
   h2 {

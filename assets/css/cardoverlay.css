@@ -61,8 +61,8 @@
 }
 
 .arrow-down::after {
-  content: "▼" "▼" "▼";
+  content: "▼";
   font-size: 20px;
   padding-top: 100px;
-  color: yellow;
+  color:  #ff5e00;
 }
