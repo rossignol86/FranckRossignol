@@ -45,6 +45,8 @@ body {
   padding-bottom: 30px;
 }
 
+
+
 /* CONTENEUR DES BLOCS */
 .conteneurblocs {
   display: flex;
@@ -90,8 +92,8 @@ article:hover {
 
 .textbloc p {
   margin-bottom: 15px;
-  font-size: 1.2rem;
-  line-height: 1.8rem;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
 }
 
 
