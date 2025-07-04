@@ -74,7 +74,7 @@ body {
   flex-direction: column;
   min-height: 100vh; /* ✅ pour que le footer reste en bas */
   background-color: #fff;
-  color: #000;
+  color: #000000;
 }
 
 /* MAIN */
