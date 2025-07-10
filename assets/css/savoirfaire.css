@@ -46,6 +46,24 @@ body {
 }
 
 
+/* CONTENEUR DES BLOCS */
+.conteneurblocs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.fleche {
+  text-align: center;
+  font-size: 4rem;
+  color: #ff5e00;
+  margin-bottom: 20px;
+}
+
+
+
+
 .container {
   max-width: 900px;
   margin: 0px auto 3rem;

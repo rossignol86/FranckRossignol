@@ -1,6 +1,6 @@
 .card {
   position: relative;
-  width: 380px;
+  width: 550px;
   height: 400px;
   overflow: hidden;
   border-radius: 10px;
@@ -9,7 +9,7 @@
 }
 
 .card-image img {
-  width: 380px;
+  width: 550px;
   height: 400px;
   object-fit: cover;
   border-radius: 10px;
@@ -69,15 +69,37 @@
 
 
 .hidden-text h5{
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
+.hidden-text p{
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+  color: bisque;
+  margin-top: 20px;
+  letter-spacing: 1px;
+}
+
+.competences h3{
+  margin-top: 60px;
+  color: #fff;
+}
+
+
 @media screen and (max-width: 480px) {
-  .card {
-    margin: 0 auto;
-    width: 400px;
-    height: 100%;
-  }
+.card {
+  margin: 0 auto;
+  width: 90%;
+  height: 100%;
+}
+
+.card-image img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
   .arrow-shape {
     padding: 50px 10px;
   }
