@@ -70,7 +70,7 @@ body {
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-section .competencetitre {
+.competencetitre {
   font-family: "Roboto", sans-serif;
   font-weight: 200 !important;
   font-size: 3rem !important;
