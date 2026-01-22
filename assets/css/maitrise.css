@@ -28,7 +28,7 @@ body {
 }
 
 .intro p {
-  padding-top: 30px;
+  padding-top: 50px;
   font-size: 1.3rem;
   line-height: 2rem;
   font-weight: 400;
@@ -42,7 +42,7 @@ body {
   font-weight: 800;
   color: #ff5e00;
   text-align: left;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
 }
 
 
