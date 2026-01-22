@@ -61,9 +61,6 @@ body {
   margin-bottom: 20px;
 }
 
-
-
-
 .container {
   max-width: 900px;
   margin: 0px auto 3rem;
@@ -73,7 +70,7 @@ body {
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-.competencestitre {
+.competencetitre {
   font-family: "Roboto", sans-serif;
   font-weight: 200;
   font-size: 3rem;
