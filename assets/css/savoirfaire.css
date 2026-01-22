@@ -72,11 +72,11 @@ body {
 
 .competencetitre {
   font-family: "Roboto", sans-serif;
-  font-weight: 200;
-  font-size: 3rem;
-  margin-bottom: 1rem;
-  color: #222;
-  text-align: center;
+  font-weight: 200 !important;
+  font-size: 3rem !important;
+  margin-bottom: 1rem !important;
+  color: #222 !important;
+  text-align: center !important;
 }
 
 .container p {
