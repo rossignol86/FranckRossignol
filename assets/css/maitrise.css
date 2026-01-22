@@ -21,7 +21,7 @@ body {
 
 .intro {
   max-width: 900px;
-  margin: 0 auto;
+  margin: 40px auto;
   border-radius: 5px;
   animation: fadeIn 1.5s ease-in-out;
   font-family: 'Segoe UI', Roboto, sans-serif;
