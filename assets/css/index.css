@@ -145,6 +145,7 @@ body {
 
 /* CONTENEUR DES BLOCS */
 .conteneurblocs {
+  margin: 40px auto;
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
