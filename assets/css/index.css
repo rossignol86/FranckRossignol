@@ -226,7 +226,6 @@ article h2 {
   max-width: 700px;
   margin: 0 auto 20px;
   color: #000000;
-
 }
 
 .outils-logos {
@@ -238,13 +237,13 @@ article h2 {
 }
 
 .outils-logos img {
-  width: 70px;
+  width: 90px;
   height: auto;
   transition: transform 0.3s ease;
 }
 
 .outils-logos img:hover {
-  transform: scale(3.0);
+  transform: scale(2.0);
 }
 
 
