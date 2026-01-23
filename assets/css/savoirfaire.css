@@ -14,14 +14,14 @@ body {
 
 /* Style pour la section d’introduction */
 .sectionblocintro {
-  margin: 20px 0;
+  margin: 40px 0;
   background-color: #ffffff;
   margin-bottom: 60px;
 }
 
 .intro {
   max-width: 900px;
-  margin: 0 auto;
+  margin: 40px auto;
   border-radius: 5px;
   animation: fadeIn 1.5s ease-in-out;
   font-family: 'Segoe UI', Roboto, sans-serif;
