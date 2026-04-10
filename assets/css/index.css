@@ -100,7 +100,7 @@ body {
 
 .eco-container {
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 40px auto;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
