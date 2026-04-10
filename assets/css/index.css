@@ -98,7 +98,7 @@ body {
 
 .titre-prof .profession {
     display: block;
-    font-size: 4.5rem;
+    font-size: 3.5rem;
     font-weight: 100;
     color: #012081;
     margin-bottom: 15px;
@@ -107,7 +107,8 @@ body {
 }
 
 .titre-prof .chapo {
-    font-size: 1.2rem;
+    font-size: 2rem;
+    font-weight: 300;
     color: #666;
     max-width: 650px;
     margin: 0 auto;
