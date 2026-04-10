@@ -98,7 +98,7 @@ body {
 
 .titre-prof .profession {
     display: block;
-    font-size: 3.5rem;
+    font-size: 4rem;
     font-weight: 100;
     color: #012081;
     margin-bottom: 15px;
@@ -112,7 +112,7 @@ body {
     color: #666;
     max-width: 650px;
     margin: 0 auto;
-    line-height: 1.7;
+    line-height: 1.2;
 }
 
  .eco-section {
