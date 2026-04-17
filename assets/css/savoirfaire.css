@@ -12,6 +12,16 @@ body {
   flex-direction: column;
 }
 
+h3 {
+    display: block;
+    font-size: 3rem;
+    font-weight: 200;
+    color: #012081;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
 /* Style pour la section d’introduction */
 .sectionblocintro {
   margin: 20px 0;
