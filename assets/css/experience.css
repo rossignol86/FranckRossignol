@@ -70,7 +70,7 @@ h2 {
   line-height: 2rem;
   font-weight: 400;
   color: #000000;
-  text-align: center;
+  text-align: left;
 }
 
 .introboldsavoirfaire p {
@@ -78,7 +78,7 @@ h2 {
   line-height: 2rem;
   font-weight: 800;
   color: #0D99FF;
-  text-align: center;
+  text-align: left;
   padding-top: 40px;
 }
 
