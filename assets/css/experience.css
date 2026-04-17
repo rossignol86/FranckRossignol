@@ -38,8 +38,8 @@ h2 {
 
 .titre-prof .profession {
     display: block;
-    font-size: 4rem;
-    font-weight: 100;
+    font-size: 3rem;
+    font-weight: 200;
     color: #012081;
     margin-bottom: 15px;
     text-transform: uppercase;
@@ -47,7 +47,7 @@ h2 {
 }
 
 .titre-prof .chapo {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 300;
     color: #666;
     /* max-width: 650px; */
